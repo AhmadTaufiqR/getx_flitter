@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/instance_manager.dart';
+import 'package:getx/model/getaegument.dart';
 import '/controller/demoController.dart';
 import '/controller/purchase.dart';
 import 'package:get/get.dart';
@@ -72,8 +73,7 @@ class HomePage extends StatelessWidget {
                   }),
                   IconButton(
                       onPressed: () => Get.toNamed('/cart',
-                          arguments:
-                              "Home Page To Demo Page -> Passing arguments"),
+                          arguments: getargu("Argumen1", "Argumen2")),
                       icon: Icon(
                         Icons.arrow_forward_ios_rounded,
                         color: Colors.white,

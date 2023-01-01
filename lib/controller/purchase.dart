@@ -16,15 +16,15 @@ class Purchase extends GetxController {
     var serverResponse = [
       Product(1, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
-      Product(1, "Demo Product", "aby",
+      Product(2, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
-      Product(1, "Demo Product", "aby",
+      Product(3, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
-      Product(1, "Demo Product", "aby",
+      Product(4, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
-      Product(1, "Demo Product", "aby",
+      Product(5, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
-      Product(1, "Demo Product", "aby",
+      Product(6, "Demo Product", "aby",
           "This is a Product that we are going to show by getX", 300.0),
     ];
 
